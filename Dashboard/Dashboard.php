@@ -1,52 +1,13 @@
-<?php
-
-?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Acme Admin Dashboard</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
-    <link rel="stylesheet" href="./CSS/Dashboard.css">
-</head>
+<?php include __DIR__ . '/header.php'; ?>
 <body>
 <div class="d-flex">
   <!-- Sidebar -->
-  <aside class="sidebar d-none d-md-flex flex-column p-3">
-    <h2 class="h4 fw-bold mb-0">Dashboard</h2>
-    <small class="text-muted">Dashboard v1</small>
-    <hr>
-    <ul class="nav nav-pills flex-column mb-auto">
-      <li><a href="#" class="nav-link"><i class="bi bi-house me-2"></i> Home</a></li>
-      <li><a href="#" class="nav-link"><i class="bi bi-people me-2"></i> Users</a></li>
-      <li><a href="#" class="nav-link"><i class="bi bi-bar-chart me-2"></i> Analytics</a></li>
-      <li><a href="#" class="nav-link"><i class="bi bi-gear me-2"></i> Settings</a></li>
-    </ul>
-    <hr>
-    <a href="#" class="btn btn-light w-100">Logout</a>
-  </aside>
+  <?php include __DIR__ . '/sidebar.php'; ?>
 
   <!-- Main content -->
   <div class="flex-grow-1 d-flex flex-column">
     <!-- Topbar -->
-    <header class="d-flex justify-content-between align-items-center p-3 bg-white border-bottom">
-      <h5 class="mb-0">Dashboard</h5>
-      <div class="d-flex align-items-center gap-3">
-        <button class="btn btn-light position-relative">
-          <i class="bi bi-bell"></i>
-          <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"></span> <!-- Notification -->
-        </button>
-        <div class="d-flex align-items-center">
-          <div class="me-2 text-end">
-            <div class="fw-semibold">Jane Admin</div>
-            <small class="text-muted">Administrator</small>
-          </div>
-          <div class="rounded-circle bg-secondary" style="width:36px; height:36px;"></div>
-        </div>
-      </div>
-    </header>
+    <?php include __DIR__ . '/navbar.php'; ?>
 
     <!-- Content -->
     <main class="p-4 overflow-auto">
@@ -132,6 +93,6 @@
   </div>
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<?php include __DIR__ . '/footer.php'; ?>
 </body>
 </html>

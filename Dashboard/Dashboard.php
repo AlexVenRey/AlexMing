@@ -13,19 +13,19 @@
     <main class="p-4 overflow-auto">
       <!-- Stats -->
       <div class="row g-3 mb-4">
-        <div class="col-sm-6 col-lg-3"><div class="stat-card"><small>New Orders</small><div class="h4 fw-bold">320</div></div></div>
-        <div class="col-sm-6 col-lg-3"><div class="stat-card"><small>Bounce Rate</small><div class="h4 fw-bold">12%</div></div></div>
-        <div class="col-sm-6 col-lg-3"><div class="stat-card"><small>User Registrations</small><div class="h4 fw-bold">1,024</div></div></div>
-        <div class="col-sm-6 col-lg-3"><div class="stat-card"><small>Unique Visitors</small><div class="h4 fw-bold">8,540</div></div></div>
+        <div class="col-sm-6 col-lg-3"><div class="stat-card"><small>Numbers</small><div class="h4 fw-bold">320</div></div></div>
+        <div class="col-sm-6 col-lg-3"><div class="stat-card"><small>Percentage</small><div class="h4 fw-bold">12%</div></div></div>
+        <div class="col-sm-6 col-lg-3"><div class="stat-card"><small>Numbers</small><div class="h4 fw-bold">1,024</div></div></div>
+        <div class="col-sm-6 col-lg-3"><div class="stat-card"><small>Numbers</small><div class="h4 fw-bold">8,540</div></div></div>
       </div>
 
       <!-- Recent Activity -->
       <div class="row g-3">
         <div class="col-lg-8">
           <div class="card">
-            <div class="card-header">Weekly Active Users</div>
+            <div class="card-header">A table</div>
             <div class="card-body" style="height:260px;">
-              <p class="text-muted">[Insert Chart.js or other chart here]</p>
+              <p class="text-muted">Something here</p>
             </div>
           </div>
         </div>
@@ -33,9 +33,9 @@
           <div class="card">
             <div class="card-header">Recent Activity</div>
             <ul class="list-group list-group-flush">
-              <li class="list-group-item">New user registered <small class="text-muted d-block">10 minutes ago</small></li>
-              <li class="list-group-item">Server backup completed <small class="text-muted d-block">1 hour ago</small></li>
-              <li class="list-group-item">Payment received <small class="text-muted d-block">3 hours ago</small></li>
+              <li class="list-group-item">Something<small class="text-muted d-block">X minutes ago</small></li>
+              <li class="list-group-item">Something <small class="text-muted d-block">X hour ago</small></li>
+              <li class="list-group-item">Something <small class="text-muted d-block">X hours ago</small></li>
             </ul>
           </div>
         </div>
@@ -44,8 +44,8 @@
       <!-- Table -->
       <div class="card mt-4">
         <div class="card-header d-flex justify-content-between">
-          <span>Latest Members</span>
-          <small class="text-muted">Showing 10 of 230</small>
+          <span>Something</span>
+          <small class="text-muted">Well</small>
         </div>
         <div class="table-responsive">
           <table class="table table-striped mb-0">
@@ -60,24 +60,24 @@
             </thead>
             <tbody>
               <tr>
-                <td>Anna Smith</td>
-                <td>anna@example.com</td>
-                <td>Editor</td>
-                <td>2025-09-11</td>
+                <td>Td</td>
+                <td>Td</td>
+                <td>Td</td>
+                <td>Td</td>
                 <td><span class="badge bg-success">Active</span></td>
               </tr>
               <tr>
-                <td>Mark Johnson</td>
-                <td>mark@example.com</td>
-                <td>Subscriber</td>
-                <td>2025-09-09</td>
-                <td><span class="badge bg-secondary">Inactive</span></td>
+                <td>Td</td>
+                <td>Td</td>
+                <td>Td</td>
+                <td>Td</td>
+                <td><span class="badge bg-secondary">Non active</span></td>
               </tr>
               <tr>
-                <td>Linda Lee</td>
-                <td>linda@example.com</td>
-                <td>Admin</td>
-                <td>2025-09-02</td>
+                <td>Td</td>
+                <td>Td</td>
+                <td>Td</td>
+                <td>Td</td>
                 <td><span class="badge bg-success">Active</span></td>
               </tr>
             </tbody>

@@ -7,7 +7,7 @@
     </button>
     <div class="d-flex align-items-center">
       <div class="me-2 text-end">
-        <div class="fw-semibold">Jane Admin</div>
+        <div class="fw-semibold">Admin</div>
         <small class="text-muted">Administrator</small>
       </div>
       <div class="rounded-circle bg-secondary" style="width:36px; height:36px;"></div>

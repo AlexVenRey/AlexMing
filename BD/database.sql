@@ -1,9 +1,13 @@
-CREATE DATABASE darkweb;
-USE darkweb;
+CREATE DATABASE BD;
+USE BD;
 
-CREATE TABLE user (
+CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    nombre_user VARCHAR(100) NOT NULL,
+    name VARCHAR(100) NOT NULL,
     password VARCHAR(100) NOT NULL 
 );
 
+INSERT INTO users (name, password) VALUES
+    ('Alex', SHA2('qweQWE123', 256)),
+    ('Ming', SHA2('qweQWE123', 256))
+;

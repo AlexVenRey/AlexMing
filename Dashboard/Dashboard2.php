@@ -11,7 +11,7 @@
 
     <!-- Content -->
     <main class="p-4 overflow-auto">
-      <!-- Métricas -->
+
       <div class="row g-3 mb-4">
         <div class="col-sm-6 col-lg-3"><div class="stat-card"><small>Numbers</small><div class="h4 fw-bold">12,480</div></div></div>
         <div class="col-sm-6 col-lg-3"><div class="stat-card"><small>Percentage</small><div class="h4 fw-bold">3.4%</div></div></div>
@@ -19,7 +19,6 @@
         <div class="col-sm-6 col-lg-3"><div class="stat-card"><small>Things</small><div class="h4 fw-bold">27</div></div></div>
       </div>
 
-      <!-- Gráfico + Fuentes -->
       <div class="row g-3">
         <div class="col-lg-8">
           <div class="card">
@@ -42,7 +41,6 @@
         </div>
       </div>
 
-      <!-- Tabla de eventos -->
       <div class="card mt-4">
         <div class="card-header d-flex justify-content-between">
           <span>Recent Events</span>

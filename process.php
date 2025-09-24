@@ -17,7 +17,7 @@ $result = $stmt->get_result();
 
 if ($result->num_rows === 1) {
     $_SESSION['username'] = $user;
-    header("Location: Dashboard.php");
+    header("Location: ./Dashboard/Dashboard.php");
     exit();
 } else {
     $_SESSION['error'] = "Incorrect username or password";

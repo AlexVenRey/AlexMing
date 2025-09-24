@@ -30,7 +30,7 @@ unset($_SESSION['error']);
             <?php if (!empty($error)): ?>
                 <p style="color:red; font-weight; margin-top: 0;"><?= htmlspecialchars($error) ?></p>
 
-            <?php endif; ?>
+            <?php endif; ?>x
 
             <input type="submit" value="Login" class="button">
         </div>

@@ -17,13 +17,13 @@
     panel.innerHTML = `
       <div class="chatbot-content">
         <div class="chatbot-header">
-          <div class="chatbot-title">Asistente</div>
-          <button class="chatbot-close" aria-label="Cerrar">&times;</button>
+          <div class="chatbot-title">Chatbot</div>
+          <button class="chatbot-close" aria-label="Close">&times;</button>
         </div>
         <div class="chatbot-messages" id="chatbot-messages"></div>
         <div class="chatbot-input">
-          <input id="chatbot-input" type="text" placeholder="Escribe un mensaje..." />
-          <button id="chatbot-send">Enviar</button>
+          <input id="chatbot-input" type="text" placeholder="Write a message..." />
+          <button id="chatbot-send">Send</button>
         </div>
       </div>`;
     document.body.appendChild(panel);

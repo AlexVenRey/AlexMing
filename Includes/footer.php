@@ -10,5 +10,5 @@
     })()
   };
 </script>
-<script src="../JS/chatbot-widget.js"></script>
+<script src="../../JS/chatbot-functions.js"></script>
 

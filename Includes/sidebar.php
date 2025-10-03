@@ -4,8 +4,8 @@
   <hr>
   <ul class="nav nav-pills flex-column mb-auto">
     <li><a href="#" class="nav-link"><i class="bi bi-house me-2"></i> Home</a></li>
-    <li><a href="Dashboard.php" class="nav-link"><i class="bi bi-people me-2"></i> Users</a></li>
-    <li><a href="Dashboard2.php" class="nav-link"><i class="bi bi-bar-chart me-2"></i> Analytics</a></li>
+    <li><a href="../../View/Dashboard/Dashboard.php" class="nav-link"><i class="bi bi-people me-2"></i> Users</a></li>
+    <li><a href="../../View/Dashboard2/Dashboard2.php" class="nav-link"><i class="bi bi-bar-chart me-2"></i> Analytics</a></li>
     <li><a href="#" class="nav-link"><i class="bi bi-gear me-2"></i> Settings</a></li>
   </ul>
   <hr>

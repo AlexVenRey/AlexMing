@@ -1,13 +1,13 @@
-<?php include dirname(__DIR__, 2) . '/Includes/header.php'; ?>
+<?php include '../../Includes/header.php'; ?>
 <body>
 <div class="d-flex">
   <!-- Sidebar -->
-  <?php include dirname(__DIR__, 2) . '/Includes/sidebar.php'; ?>
+  <?php include '../../Includes/sidebar.php'; ?>
 
   <!-- Main content -->
   <div class="flex-grow-1 d-flex flex-column">
     <!-- Topbar -->
-    <?php include dirname(__DIR__, 2) . '/Includes/navbar.php'; ?>
+    <?php include '../../Includes/navbar.php'; ?>
 
     <!-- Content -->
     <main class="p-4 overflow-auto">
@@ -91,8 +91,8 @@
   </div>
 </div>
 
-<?php include dirname(__DIR__, 2) . '/Includes/chatbot-widget.html'; ?>
-<?php include dirname(__DIR__, 2) . '/Includes/footer.php'; ?>
+<?php include '../../Includes/chatbot-widget.html'; ?>
+<?php include '../../Includes/footer.php'; ?>
 </body>
 </html>
 
